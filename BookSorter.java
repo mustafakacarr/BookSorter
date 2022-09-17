@@ -24,10 +24,16 @@ public class BookSorter {
         set2.add(new Book("Daha", 234, "Hakan Günday", "05.11.2002"));
         set2.add(new Book("Böyle Buyurdu Zerdüşt", 90, "Nietsche", "05.11.2002"));
 
+        /*
+        * This set is sorted according to book name
+        */
         for (Book i : set) {
             System.out.println(i.getName());
         }
         System.out.println("\n***************\n");
+        /*
+         * This set is sorted according to book page number
+         */
         for (Book i : set2) {
             System.out.println(i.getName() + " \t Sayfa Sayısı: "+ i.getPageNumber());
         }
